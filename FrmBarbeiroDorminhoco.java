@@ -250,6 +250,7 @@ public class FrmBarbeiroDorminhoco extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAbrirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAbrirActionPerformed
+        JOptionPane.showMessageDialog(null, "Barber is open!");
         t1.start();
         t2.start();
         changeColor.start();
