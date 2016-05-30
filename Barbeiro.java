@@ -63,8 +63,6 @@ class Barbeiro extends Thread{
     
     @Override
     public void run() {
-        JOptionPane.showMessageDialog(null, "Barber is open!");
-        try{ Thread.sleep(2000);}catch(Exception e) {}
         while(true) {
             //customers();
             barbers();
